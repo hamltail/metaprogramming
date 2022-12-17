@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.10)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    monetize (1.12.0)
+      money (~> 6.12)
+    money (6.16.0)
+      i18n (>= 0.6.4, <= 2)
+    power_assert (2.0.2)
+    test-unit (3.5.7)
+      power_assert
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  monetize (~> 1.9, >= 1.9.1)
+  test-unit
+
+BUNDLED WITH
+   2.3.25
