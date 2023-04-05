@@ -2,7 +2,6 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
-gem 'monetize', '~> 1.9', '>= 1.9.1'
+gem 'monetize'
 gem 'test-unit'
 gem 'debug'

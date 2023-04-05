@@ -1,11 +1,11 @@
-module StringExtentions
-  refine String do
-    def to_alphanumeric
-      gsub(/[^\w\s]/, '')
-    end
-  end
-end
+# module StringExtentions
+#   refine String do
+#     def to_alphanumeric
+#       gsub(/[^\w\s]/, '')
+#     end
+#   end
+# end
 
-using StringExtentions
+# using StringExtentions
 
-p "my *lst* refinement!".to_alphanumeric
+# p "my *lst* refinement!".to_alphanumeric
